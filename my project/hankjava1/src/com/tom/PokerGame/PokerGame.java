@@ -6,11 +6,20 @@ public class PokerGame {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int[] n = new int[10];
+		Card[] c = new Card[10];
+		System.out.println(n[0]);
+		c[0]= new Card(7);
+		System.out.println(c[0].get());
 		
-		char f ={0x2660,0x2653,0x2665,0x2666};
-		System.out.println(f);
 		
-		int[]nums = new int[5];
+		Poker poker = new Poker();
+		poker.print();
+		
+//		int[] f ={0x2660,0x2653,0x2665,0x2666};
+//		System.out.println(f);
+		
+/*		int[]nums = new int[5];
 		nums[0] = 38;
 		nums[4] = 3;
 		System.out.println(nums[4]);
@@ -23,23 +32,23 @@ public class PokerGame {
 		int number = random.nextInt(13+1);
 		int flower = random.nextInt(4);
 		System.out.println(number);
-		char c = 0;
+		char c1 = 0;
 		switch (flower){
 		case 0:
-			c = 'C';
+			c1 = 'C';
 			break;
 		case 1:
-			c = 'D';
+			c1 = 'D';
 			break;
 		case 2:
-			c = 'H';
+			c1 = 'H';
 			break;
 		case 3:
-			c = 'S';
+			c1 = 'S';
 			break;
 		
 		}
-		System.out.println(c);
+		System.out.println(c1);*/
 	}
 
 }
